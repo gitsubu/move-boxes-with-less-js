@@ -1,0 +1,42 @@
+.rect{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color:#53BBDB;
+}
+
+.smallrect{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    background-color:#AD5EDB;
+    margin-left: 10%;
+    margin-top: 10%;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn{
+    position: relative;
+    height: 30px;
+    width: auto;
+    margin-top: 2%;
+    border-radius: 10%;
+}
+
+/*Positions for placing the rectangle in quadrants of main rectangle*/
+.position0{
+    transform: translate(0px,0px);
+}
+
+.position1{
+    transform: translate(140px,0px);
+}
+
+.position2{
+    transform: translate(140px,140px);
+}
+
+.position3{
+    transform: translate(0px,140px);
+}
